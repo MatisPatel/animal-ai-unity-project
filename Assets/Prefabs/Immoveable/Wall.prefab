@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 23287502522099198}
   - component: {fileID: 5422284419187644763}
   - component: {fileID: 6128124095268418293}
+  - component: {fileID: -6576656255178159595}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Immovable
@@ -75,7 +76,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 29597f4ca31f7e649891c017199e9512, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -132,3 +133,18 @@ MonoBehaviour:
   ratioSize: {x: 1, y: 1, z: 1}
   sizeAdjustement: 0.999
   textureUVOverride: 1
+  typicalOrigin: 1
+--- !u!114 &-6576656255178159595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434092799595714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe3b385200af294e9e3689d0ea098d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proTexTexture: {fileID: 11400000, guid: cb823215361aed64683539bff1ce03a9, type: 2}
+  runtimeTextureSize: 256
